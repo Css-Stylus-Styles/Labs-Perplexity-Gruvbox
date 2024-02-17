@@ -1,4 +1,4 @@
-* ==UserStyle==
+/* ==UserStyle==
 @name           Light perplexity labs 
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
@@ -262,7 +262,7 @@ Code{
 	font-weight: 500 !important; 
 	border-radius: 9px !important  ; 
 	line-height: 1.2rem !important ; 
-	color: #676207 !important;
+	color: #CC241D !important;
 	background: #FAEDCD   !important ; 
 	}
 
@@ -288,7 +288,7 @@ code >span.token {
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
 	font-size: 0.9rem !important; 
 	font-weight: 500 !important;
-	color : #FB4934 !important ; 
+	color : #076678 !important ; 
 }
 
 
@@ -361,7 +361,7 @@ span.token.boolean{
 
 /*List numbers  */
 	li::marker{
-		color : #FB4934 !important ; 
+		color : #057C33 !important ; 
 		
 	}
 	
