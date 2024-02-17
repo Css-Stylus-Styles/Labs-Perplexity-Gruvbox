@@ -1,0 +1,515 @@
+/* ==UserStyle==
+@name           Light perplexity labs 
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url("https://labs.perplexity.ai/")  {
+    /* Insert code here... */
+	
+	:root {
+    --bg0-dh: #1d2021;
+    --bg1-dark: #3c3836;
+    --bg-dark: #282828;
+    --bg2-dark: #504945;
+    --bg3-dark: #665c54;
+    --bg4-dark: #7c6f64;
+    --bg5-dark: #928374;
+    --bg_visual: #503946;
+    --bg_red: #cc241d;
+    --bg_green: #98971a;
+    --bg_blue: #458588;
+    --bg_yellow: #d79921;
+    --shadow: #16181a;
+    --shadow-var1: #17191b;
+    --shadow-cur: #1a1b1d;
+    --fg-dark: #ebdbb2;
+    --grey0-dark: #7f897d;
+    --grey1-dark: #859289;
+    --grey2-dark: #9aa79d;
+    --faded-red: #fb4934;
+    --faded-orange: #fe8019;
+    --faded-yellow: #fabd2f;
+    --faded-green: #b8bb26;
+    --faded-aqua: #8ec07c;
+    --faded-blue: #83a598;
+    --faded-purple: #d3869b;
+    --dim-red: #cc241d;
+    --dim-orange: #d65d0e;
+    --dim-yellow: #d79921;
+    --dim-green: #98971a;
+    --dim-aqua: #689d6a;
+    --dim-blue: #458588;
+    --dim-purple: #b16286;
+    --bg0-light: #f0edd8;
+    --bg1-light: #f6f1dd;
+    --bg-light: #fdf6e3;
+    --bg2-light: #f3efda;
+    --bg3-light: #edead5;
+    --bg4-light: #e4e1cd;
+    --bg5-light: #dfdbc8;
+    --grey0-light: #a4ad9e;
+    --grey1-light: #939f91;
+    --grey2-light: #879686;
+    --shadow-light: #3c474d20;
+    --text-offwhite: #fbf1c7;
+    --text-offyellowish: #f2e5bc;
+    --text-white: #f9f5d7;
+    --text-offwhite-faded: #ebdbb2;
+    --text--faded: #d5c4a1;
+    --text--veryfade: #928374;
+    --bg_visual_light: #eaedc8;
+    --bg_red_light: #fbe3da;
+    --bg_green_light: #f0f1d2;
+    --bg_blue_light: #e9f0e9;
+    --bg_yellow_light: #faedcd;
+    --fg-light: #5c6a72;
+    --light-red: #f85552;
+    --light-orange: #f57d26;
+    --light-yellow: #bf983d;
+    --light-green: #899c40;
+    --light-aqua: #569d79;
+    --light-blue: #5a93a2;
+    --light-purple: #b87b9d;
+    --light-dim-red: #f1706f;
+    --light-dim-orange: #f39459;
+    --light-dim-yellow: #e4b649;
+    --light-dim-green: #a4bb4a;
+    --light-dim-aqua: #6ec398;
+    --light-dim-blue: #6cb3c6;
+    --light-dim-purple: #e092be;
+    --dark-red: #9d0006;
+    --dark-green: #79740e;
+    --dark-yellow: #b57614;
+    --dark-blue: #076678;
+    --dark-purple: #8f3f71;
+    --dark-aqua: #427b58;
+    --dark-orange: #af3a03;
+    --interface-light0-hard: #f9f5d7;
+    --interface-light0: #fbf1c7;
+    --interface-light0-soft: #f2e5bc;
+    --interface-light1: #ebdbb2;
+    --interface-light2: #d5c4a1;
+    --interface-light3: #bdae93;
+    --interface-light4: #a89988;
+}
+	
+	
+	
+/* 	Hello how can i help you  */
+	.prose :where(.prose>:last-child):not(:where([class~=not-prose] *)) {
+    margin-bottom: 0;
+		color:#282828 !important ; 
+}
+	
+	
+/*LLM served by perplexityh lab background  */
+	div.border.px-md.py-sm.rounded-lg{
+		background-color : #EBDBB2 !important ;
+	} 
+	
+	
+	
+/* Not sure what ththis applies to 	 */
+	.dark .dark\:prose-invert {
+		/*Main Text color*/
+    --tw-prose-body: #E4E1CD !important;
+	
+    
+
+
+/*Block around code block  		 */
+		/*Border around the code block*/
+		
+    --tw-prose-pre-bg: #FAEDCD !important;
+   
+}
+	
+	
+/*Select models 	 */
+	
+	#lamma-select{
+		color:#9D0006 !important;
+		background-color : #EBDBB2 !important ; 
+	}
+	
+	
+	
+	
+	/*Playground Text ON top*/
+
+.tracking-widest {
+    letter-spacing: .1em;
+	color:#427B58 !important;
+}
+	
+	
+	
+/* PPLX -API text 	 */
+	.dark .dark\:bg-offsetPlusDark {
+    --tw-bg-opacity: 1;
+		color:#9C201B !important;
+    background-color: #FAEDCD !important;
+}
+
+	
+/* ASK   Preplexity , PPLX button . COPY BUTTON  hover 	 */
+.whitespace-nowrap:hover{
+  
+background : #F9F5D7 !important ; 
+}
+		
+
+
+/* TRY perplexity button  , Copy button  */
+	.dark .dark\:bg-superDark {
+    --tw-bg-opacity: 1;
+		
+
+    background-color: #D5C4A1 !important;
+}
+	
+		/*Copy Button Aask perplexity PLX  And tey perplcity text button */
+	.text-align-center.relative {
+		color:#3C3836 !important;
+}
+
+	
+	/*Border color*/
+.dark .dark\:border-borderMainDark\/80 {
+    border-color: #7C6F64 !important;
+}
+	
+	
+/*Copy Icon 	 */
+	.hebEKa .icon {
+		fill: #EAEDC8 !important;
+    width: 1rem;
+    height: 1rem;
+}
+
+/*Svg selctign even icon color **EVERY***/
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+	color: #CC241D !important;
+    
+}
+	
+	
+	
+/*Color of hte bottom timelimnes*/
+/*Tokens per second and more */
+	
+.tracking-wide {
+	color:#AF3A03 !important;
+
+    letter-spacing: .025em;
+}
+
+/* color of the token/second 	 */
+div.inline.default{
+	color : #076678 !important ; 
+	font-size: 12px !important ; 
+	font-family: "CommitMono", monospace !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+/*languuage name */
+div.absolute.text-textMainDark{
+	color:#fb4934 !important; 
+
+	transform: translatey(-50%) !important ; 
+/* padding : 0.01rem   48rem !important;  */
+	}
+
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* 	Code Styles */
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+/*CODE BLOCKS */
+Code{
+	font-family:/*"CommitMono" ,  , "Jetbrains Mono","Cascadia Code" , "chivo Mono"         */ "CommitMono" , monospace!important; 
+	font-size: 0.9rem !important; 
+	font-weight: 500 !important; 
+	border-radius: 9px !important  ; 
+	line-height: 1.2rem !important ; 
+	color: #FB4934 !important;
+	background: #FAEDCD   !important ; 
+	}
+
+	
+/*Code bg wrapper*/
+.codeWrapper>:nth-child(2) {
+background-color: #FAEDCD !important;
+}
+
+
+	/*MAIN MIDDLE CODE BLOCK COLOR */
+div.sc-gEvEer.ePundr >span{
+	background: #FAEDCD !important ; 
+}
+	
+	
+
+	
+	
+
+/*I DONT KNOW WHAT THIS DOES BUT IT WORKS   */
+code >span.token {
+		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+	font-size: 0.9rem !important; 
+	font-weight: 500 !important;
+	color : #b8bb26 !important ; 
+}
+
+
+	/*Code direcgive first token */
+span.token.directive{
+		font-family:'CommitMono' ,   "Cascadia Code", monospace   !important; 
+font-size: 0.85rem !important; 
+	font-weight: 600 !important;
+	color:#9D0006 !important;
+}
+	
+	
+	/* COde > libraries and stuff */
+span.token{
+		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+font-size: 0.85rem !important; 
+	font-weight: 600 !important;
+	color:#FB4934 !important;
+}
+	
+	
+	
+
+/*Code attribute values*/
+span.token.attr-value{
+		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+font-size: 0.9rem !important; 
+	font-weight: 600 !important;
+	color:#FB4934 !important;
+}
+
+
+/*Realted to code -> self explanorty*/
+code>span.token.punctuation{
+		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+	font-size: 0.9rem !important; 
+	font-weight: 500 !important;
+	color:#D3869B !important;
+}
+
+
+
+
+
+/*operators in code*/
+code>span.token.operator{
+		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+font-size: 1rem !important; 
+	font-weight: 900 !important;
+	color: #fb4934 !important;
+}
+
+/*BOOLEAN */
+span.token.boolean{
+	color: #8ec07c !important;
+	font-size: 0.85rem !important; 
+	font-weight: 500 !important;
+}
+
+
+
+
+
+
+
+
+
+	
+    
+
+/*List numbers  */
+	li::marker{
+		color : #FB4934 !important ; 
+		
+	}
+	
+	
+	/* LLM served by Perplexity  labs */
+div.light.font-sans.text-base.font-medium.text-textOff{
+	color : #F57D26 !important  ; 
+	
+}
+
+
+
+
+
+
+
+/*Lower seperator*/
+/*Ask anything user input seperator*/
+:not([hidden]) ~ :not([hidden])  { 
+    border-color: #7C6F64 !important;
+} 
+
+
+/*Send button drawer   */
+.dark .dark\:bg-idleDark {
+    --tw-bg-opacity: 1;
+    background-color: #FFF !important;
+}
+
+
+/*Black input area and text reponse area  **ASK ANYTHING AREA***/
+.dark\:bg-offsetDark  { 
+    --tw-bg-opacity: 1; 
+    background-color:#FAEDCD !important;
+} 
+
+
+
+/*BOrder around the app*/
+.dark\:border-borderMainDark\/80  { 
+    border-color: #B16286 !important;
+} 
+  
+
+
+/*Lower part of the bg color*/
+
+.dark\:bg-backgroundDark  { 
+    --tw-bg-opacity: 1; 
+    background-color: #D5C4A1 !important;
+} 
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+/*External links in the chat :visited  */
+a.break-word.decoration-from-font.underline.underline-offset-1{
+	color: #fb4934 !important; 
+	
+}
+	
+/* Hover in links 	 */
+a.break-word.decoration-from-font.underline.underline-offset-1:hover{
+	color: #b8bb26 !important; 
+	
+}
+
+
+
+
+
+
+
+/*BOLD TEXT   */
+	.prose :where(strong):not(:where([class~=not-prose] *)) 
+{
+
+	font-size: 1rem !important; 
+    font-weight: bolder;
+ color : #B16286 !important; 
+}
+
+
+
+
+
+/*Html background  is same as the main color   */
+	html {
+		background-color : #D5C4A1 !important ; 
+	}
+
+
+
+
+
+
+/*Input text that you enter   */
+	textarea {
+		 
+		color : #282828 !important ; 
+	}
+
+/* Aask anything 	 */
+	textarea::placeholder{
+		color:#F57D26 !important ; 
+	}
+	
+	
+ 
+/* H3 energy	 */
+	h3{
+		color : #98971A !important ; 
+	}
+
+
+	
+	
+	
+/* 	Italic font for the empahsis  */
+	em{
+		color  : #98971A !important ; 
+	}
+
+
+
+
+/*  prompt amd response color*/
+
+.\[word-break\:break-word\] {
+    word-break: break-word;
+	color : #1A1B1D  !important;
+
+	
+	}
+
+
+
+	
+	
+}
