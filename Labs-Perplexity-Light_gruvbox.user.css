@@ -1,4 +1,4 @@
-/* ==UserStyle==
+* ==UserStyle==
 @name           Light perplexity labs 
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
@@ -262,7 +262,7 @@ Code{
 	font-weight: 500 !important; 
 	border-radius: 9px !important  ; 
 	line-height: 1.2rem !important ; 
-	color: #FB4934 !important;
+	color: #676207 !important;
 	background: #FAEDCD   !important ; 
 	}
 
@@ -288,7 +288,7 @@ code >span.token {
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
 	font-size: 0.9rem !important; 
 	font-weight: 500 !important;
-	color : #b8bb26 !important ; 
+	color : #FB4934 !important ; 
 }
 
 
@@ -297,7 +297,7 @@ span.token.directive{
 		font-family:'CommitMono' ,   "Cascadia Code", monospace   !important; 
 font-size: 0.85rem !important; 
 	font-weight: 600 !important;
-	color:#9D0006 !important;
+	color:#8F3F71 !important;
 }
 	
 	
@@ -306,7 +306,7 @@ span.token{
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
 font-size: 0.85rem !important; 
 	font-weight: 600 !important;
-	color:#FB4934 !important;
+	color:#427B58 !important;
 }
 	
 	
@@ -317,7 +317,7 @@ span.token.attr-value{
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
 font-size: 0.9rem !important; 
 	font-weight: 600 !important;
-	color:#FB4934 !important;
+	color:#79740E !important;
 }
 
 
@@ -326,7 +326,7 @@ code>span.token.punctuation{
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
 	font-size: 0.9rem !important; 
 	font-weight: 500 !important;
-	color:#D3869B !important;
+	color:#16181A !important;
 }
 
 
@@ -338,12 +338,12 @@ code>span.token.operator{
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
 font-size: 1rem !important; 
 	font-weight: 900 !important;
-	color: #fb4934 !important;
+	color: #076678 !important;
 }
 
 /*BOOLEAN */
 span.token.boolean{
-	color: #8ec07c !important;
+	color: #169347 !important;
 	font-size: 0.85rem !important; 
 	font-weight: 500 !important;
 }
