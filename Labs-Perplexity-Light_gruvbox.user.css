@@ -508,8 +508,21 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 	
 	}
 
+	/*List    , unordered lists and more */
+	
+	ol , li , ul {
+		color : #16181A !important ; 
+	}
 
-
+/*Hover for lists*/	
+	
+	ol:hover , li:hover , ul:hover{
+		color : #16181A !important ; 
+	}
+	
+	
+	
+	
 	
 	
 }
