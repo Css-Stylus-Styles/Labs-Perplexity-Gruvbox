@@ -105,9 +105,9 @@
 }
 	
 	
-/*LLM served by perplexityh lab background  */
+/*Main chat color backgroujnd  */
 	div.border.px-md.py-sm.rounded-lg{
-		background-color : #EBDBB2 !important ;
+		background-color : #F9F5D7 !important ;
 	} 
 	
 	
@@ -131,8 +131,8 @@
 /*Select models 	 */
 	
 	#lamma-select{
-		color:#9D0006 !important;
-		background-color : #EBDBB2 !important ; 
+		color:#076678 !important;
+		background-color : #F0EDD8 !important ; 
 	}
 	
 	
@@ -411,7 +411,7 @@ div.light.font-sans.text-base.font-medium.text-textOff{
 
 .dark\:bg-backgroundDark  { 
     --tw-bg-opacity: 1; 
-    background-color: #D5C4A1 !important;
+    background-color: #FBF1C7 !important;
 } 
 
 
@@ -452,7 +452,7 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 
 	font-size: 1rem !important; 
     font-weight: bolder;
- color : #B16286 !important; 
+ color : #79740E !important; 
 }
 
 
@@ -461,7 +461,7 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 
 /*Html background  is same as the main color   */
 	html {
-		background-color : #D5C4A1 !important ; 
+		background-color : #FBF1C7 !important ; 
 	}
 
 
@@ -493,7 +493,7 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 	
 /* 	Italic font for the empahsis  */
 	em{
-		color  : #98971A !important ; 
+		color  : #FB4934 !important ; 
 	}
 
 
