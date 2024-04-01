@@ -1,3 +1,4 @@
+
 /* ==UserStyle==
 @name           Light perplexity labs 
 @namespace      github.com/openstyles/stylus
@@ -10,6 +11,12 @@
     /* Insert code here... */
 	
 	:root {
+		
+    /* 2.1 Dark theme color variables */
+    --bg-dark-new  :  #1F1E1D ; 
+/*For basic text new color added  	 */
+--text-normal :#ffd29c ;
+		
     --bg0-dh: #1d2021;
     --bg1-dark: #3c3836;
     --bg-dark: #282828;
@@ -263,7 +270,7 @@ Code{
 	border-radius: 9px !important  ; 
 	line-height: 1.2rem !important ; 
 	color: #CC241D !important;
-	background: #FAEDCD   !important ; 
+	background: #ffd29c   !important ; 
 	}
 
 	
@@ -526,3 +533,4 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 	
 	
 }
+
