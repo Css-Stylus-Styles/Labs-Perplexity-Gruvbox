@@ -127,12 +127,30 @@
 	
 /*Select models 	 */
 	
+	
+	
+	
+	
 	#lamma-select{
-		color:#076678 !important;
-		background-color : #F0EDD8 !important ; 
+		color:#cc241d !important;
+		background-color : #ffd29c !important ; 
+		
+		/*Font and other properties */
+		font-family: "commitMono" !important ;
+		font-size: 0.9rem !important ; 
+		font-weight: 600 !important ; 
 	}
 	
-	
+	#lamma-select > option {
+  color: #24603b; /* Set the text color of the options */
+  background-color: #fbf1c7; /* Set the background color of the options */
+		
+		
+		/*Font perpteis for inside the div*/
+		font-family: "commitMono" !important ;
+		font-size: 0.9rem !important ; 
+		font-weight: 600 !important ; 	
+}
 	
 	
 	/*Playground Text ON top*/
