@@ -375,8 +375,8 @@ span.token.boolean{
 	
 	/* LLM served by Perplexity  labs */
 div.light.font-sans.text-base.font-medium.text-textOff{
-	color : #F57D26 !important  ; 
-	
+	color : #83a598 !important  ; 
+	opacity: 1 !important ; 
 }
 
 
