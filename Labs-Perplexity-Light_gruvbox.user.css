@@ -114,15 +114,20 @@
 	
 /*Main chat color backgroujnd  */
 	div.border.px-md.py-sm.rounded-lg{
-		background-color : #F9F5D7 !important ;
+		background-color : #fbf1c7 !important ;
 	} 
 	
+
+	/*Code block backgorund changed*/
+	div.sc-gEvEer > span {
+  background-color: #ffd29c !important;
+}
 	
 	
 /* Not sure what ththis applies to 	 */
 	.dark .dark\:prose-invert {
 		/*Main Text color*/
-    --tw-prose-body: #E4E1CD !important;
+    --tw-prose-body: #b8bb26 !important;
 	
     
 
