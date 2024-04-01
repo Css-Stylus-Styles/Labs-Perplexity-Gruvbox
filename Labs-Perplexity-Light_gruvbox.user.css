@@ -1,3 +1,4 @@
+
 /* ==UserStyle==
 @name           Light perplexity labs 
 @namespace      github.com/openstyles/stylus
@@ -102,7 +103,7 @@
     --interface-light4: #a89988;
 }
 	
-	
+
 	
 /* 	Hello how can i help you  */
 	.prose :where(.prose>:last-child):not(:where([class~=not-prose] *)) {
@@ -118,21 +119,10 @@
 	
 
 
-	
-/* Not sure what ththis applies to 	 */
-	.dark .dark\:prose-invert {
-		/*Main Text color*/
-    --tw-prose-body: #b8bb26 !important;
-	
-    
-
-
-/*Block around code block  		 */
-		/*Border around the code block*/
-		
-    --tw-prose-pre-bg: #FAEDCD !important;
-   
-}
+	 html , body{
+		 
+	background: #f9f5d7 !important  ; 	
+	}
 	
 	
 /*Select models 	 */
@@ -175,7 +165,7 @@ background : #F9F5D7 !important ;
     --tw-bg-opacity: 1;
 		
 
-    background-color: #D5C4A1 !important;
+    background-color: #d5c4a1 !important;
 }
 	
 		/*Copy Button Aask perplexity PLX  And tey perplcity text button */
@@ -394,7 +384,7 @@ div.light.font-sans.text-base.font-medium.text-textOff{
 /*Lower seperator*/
 /*Ask anything user input seperator*/
 :not([hidden]) ~ :not([hidden])  { 
-    border-color: #7C6F64 !important;
+    border-color: #fb4934 !important;
 } 
 
 
@@ -408,7 +398,8 @@ div.light.font-sans.text-base.font-medium.text-textOff{
 /*Black input area and text reponse area  **ASK ANYTHING AREA***/
 .dark\:bg-offsetDark  { 
     --tw-bg-opacity: 1; 
-    background-color:#FAEDCD !important;
+    background-color:#f9f5d7 !important;
+	font-family: "harding Text Web" !important ; 
 } 
 
 
@@ -424,7 +415,7 @@ div.light.font-sans.text-base.font-medium.text-textOff{
 
 .dark\:bg-backgroundDark  { 
     --tw-bg-opacity: 1; 
-    background-color: #FBF1C7 !important;
+    background-color: #f2e5bc !important;
 } 
 
 
@@ -471,11 +462,6 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 
 
 
-
-/*Html background  is same as the main color   */
-	html {
-		background-color : #FBF1C7 !important ; 
-	}
 
 
 
@@ -545,9 +531,10 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 		color : #16181A !important ; 
 	}
 	
-	
+
 	
 	
 	
 	
 }
+
